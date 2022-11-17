@@ -16,7 +16,8 @@
     url: 'http://localhost:5000/api/schedule/'
 
 ## Запсук:
-    `npm i && npm run dev`
+    `npm i`
+    `npm run dev`
 
 ## Cтэк
 - Node.js
