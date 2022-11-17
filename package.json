@@ -1,0 +1,35 @@
+{
+  "name": "project-dev-test-task",
+  "version": "1.0.0",
+  "description": "Необходимо реализовать API медицинской информационной системы (МИС) и сервис напоминания о записи к врачу.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "prisma migrate dev --name init & node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robotmia/project-dev-test-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robotmia/project-dev-test-task/issues"
+  },
+  "homepage": "https://github.com/robotmia/project-dev-test-task#readme",
+  "devDependencies": {
+    "prisma": "^4.6.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  },
+  "prisma": {
+    "seed": "node seed.js"
+  }
+}
