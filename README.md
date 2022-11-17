@@ -5,15 +5,15 @@
 
 ## API медицинской информационной системы (МИС)
 ### Методы API:
-1. Регистрация пациента 
-    -method: `POST`
-    -url: `'http://localhost:5000/api/user/create'`
-2. Запись на прием к врачу 
-   -method: `POST`
-   -url: `'http://localhost:5000/api/appointments/create'`
-3. Получение расписания врачей за определенную дату
-    -method: `POST`
-    -url: `'http://localhost:5000/api/schedule/'`
+1. Регистрация пациента: 
+    - method: `POST`
+    - url: `'http://localhost:5000/api/user/create'`
+2. Запись на прием к врачу: 
+   - method: `POST`
+   - url: `'http://localhost:5000/api/appointments/create'`
+3. Получение расписания врачей за определенную дату:
+    - method: `POST`
+    - url: `'http://localhost:5000/api/schedule/'`
 
 ## Запуск:
     `npm i`
